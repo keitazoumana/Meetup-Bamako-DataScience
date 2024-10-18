@@ -1,0 +1,12 @@
+project:
+  name: "Bamako Data Science"
+  department: "IA & Automatisation"
+
+data_source:
+  input:
+    type: "S3"
+    path: "s3://analyse-intelligente-documents-workshop/bamako-datascience/input/"
+  output:
+    type: "S3"
+    ocr_rawdata_path: "s3://analyse-intelligente-documents-workshop/bamako-datascience/output/ocr-raw-text/"
+    metadata_path: "s3://analyse-intelligente-documents-workshop/bamako-datascience/output/metadata/"

@@ -1,0 +1,34 @@
+{
+  "TitreDeLArticle": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "AnneeDePublication": "2019",
+  "Auteurs": [
+    "Jacob Devlin",
+    "Ming-Wei Chang",
+    "Kenton Lee",
+    "Kristina Toutanova"
+  ],
+  "ContactDesAuteurs": [
+    {
+      "Nom": "Jacob Devlin",
+      "Institution": "Google AI Language",
+      "Email": "jacobdevlin@google.com"
+    },
+    {
+      "Nom": "Ming-Wei Chang",
+      "Institution": "Google AI Language",
+      "Email": "mingweichang@google.com"
+    },
+    {
+      "Nom": "Kenton Lee",
+      "Institution": "Google AI Language",
+      "Email": "kentonl@google.com"
+    },
+    {
+      "Nom": "Kristina Toutanova",
+      "Institution": "Google AI Language",
+      "Email": "kristout@google.com"
+    }
+  ],
+  "Resume": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQUAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQUAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+  "ResumeSynthetique": "Cet article présente BERT, un modèle de représentation de langue qui pré-entraîne des représentations bidirectionnelles profondes à partir de textes non étiquetés. BERT, qui utilise des Transformers, est capable d'être affiné avec une seule couche de sortie supplémentaire pour diverses tâches de traitement du langage naturel, atteignant des résultats sans précédent dans onze tâches, y compris une amélioration significative des scores GLUE et SQUAD."
+}

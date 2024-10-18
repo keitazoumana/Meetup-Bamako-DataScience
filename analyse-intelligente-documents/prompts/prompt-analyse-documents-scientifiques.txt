@@ -1,0 +1,27 @@
+Article de recherche scientifique :
+---
+{document}
+---
+
+Vous êtes un expert en analyse d'articles de recherche scientifique. Veuillez lire attentivement l'article de recherche fourni ci-dessus et extraire les informations clés suivantes :
+
+Extrayez ces six (6) propriétés de l'article de recherche :
+- Titre de l'article : Le titre complet de l'article de recherche
+- Année de publication : L'année de publication de l'article
+- Auteurs : Les noms complets de tous les auteurs de l'article
+- Contact des auteurs : Une liste de dictionnaires, où chaque dictionnaire contient les clés suivantes pour chaque auteur :
+  - Nom : Le nom complet de l'auteur
+  - Institution : L'affiliation institutionnelle de l'auteur
+  - Email : L'adresse email de l'auteur (si fournie)
+- Résumé : Le texte intégral du résumé de l'article
+- Résumé synthétique : Un résumé concis du résumé en 2-3 phrases, mettant en évidence les points clés
+
+Directives :
+- Les informations extraites doivent être factuelles et fidèles au document.
+- Soyez extrêmement concis, sauf pour le Résumé qui doit être copié intégralement.
+- Les entités extraites doivent être autonomes et facilement compréhensibles sans le reste de l'article.
+- Si une propriété est manquante dans l'article, veuillez laisser le champ vide plutôt que de deviner.
+- Pour le Résumé synthétique, concentrez-vous sur les principaux objectifs, méthodes et résultats clés de la recherche.
+- Pour le Contact des auteurs, créez une entrée pour chaque auteur, même si certaines informations sont manquantes. Si un email ou une institution n'est pas fourni pour un auteur, laissez ce champ vide dans le dictionnaire.
+
+Répondez au format JSON. Le JSON doit contenir 6 clés : "TitreDeLArticle", "AnneeDePublication", "Auteurs", "ContactDesAuteurs", "Resume" et "ResumeSynthetique". Le "ContactDesAuteurs" doit être une liste de dictionnaires comme décrit ci-dessus.

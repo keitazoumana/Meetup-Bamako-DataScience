@@ -1,0 +1,52 @@
+{
+  "TitreDeLArticle": "Performance Study of YOLOv5 and Faster R-CNN for Autonomous Navigation around Non-Cooperative Targets",
+  "AnneeDePublication": "2022",
+  "Auteurs": [
+    "Trupti Mahendrakar",
+    "Ryan T. White",
+    "Andrew Ekblad",
+    "Markus Wilde",
+    "Isaac Silver",
+    "Nathan Fischer",
+    "Brian Kish"
+  ],
+  "ContactDesAuteurs": [
+    {
+      "Nom": "Trupti Mahendrakar",
+      "Institution": "Florida Institute of Technology",
+      "Email": "tmahendrakar2020@my.fit.edu"
+    },
+    {
+      "Nom": "Ryan T. White",
+      "Institution": "Florida Institute of Technology",
+      "Email": "rwhite@my.fit.edu"
+    },
+    {
+      "Nom": "Andrew Ekblad",
+      "Institution": "Florida Institute of Technology",
+      "Email": "aekblad2019@my.fit.edu"
+    },
+    {
+      "Nom": "Markus Wilde",
+      "Institution": "Florida Institute of Technology",
+      "Email": "mwilde@fit.edu"
+    },
+    {
+      "Nom": "Isaac Silver",
+      "Institution": "Energy Management Aerospace",
+      "Email": "isaac@energymanagementaero.com"
+    },
+    {
+      "Nom": "Nathan Fischer",
+      "Institution": "Florida Institute of Technology",
+      "Email": "nfischer2018@my.fit.edu"
+    },
+    {
+      "Nom": "Brian Kish",
+      "Institution": "Florida Institute of Technology",
+      "Email": "bkish@fit.edu"
+    }
+  ],
+  "Resume": "Autonomous navigation and path-planning around non-cooperative space objects is an enabling technology for on-orbit servicing and space debris removal systems. The navigation task includes the determination of target object motion, the identification of target object features suitable for grasping, and the identification of collision hazards and other keep-out zones. Given this knowledge, chaser spacecraft can be guided towards capture locations without damaging the target object or without unduly the operations of a servicing target by covering up solar arrays or communication antennas. One way to autonomously achieve target identification, characterization and feature recognition is by use of artificial intelligence algorithms. This paper discusses how the combination of cameras and machine learning algorithms can achieve the relative navigation task. The performance of two deep learning-based object detection algorithms, Faster Region-based Convolutional Neural Networks (R-CNN) and You Only Look Once (YOLOv5), is tested using experimental data obtained in formation flight simulations in the ORION Lab at Florida Institute of Technology. The simulation scenarios vary the yaw motion of the target object, the chaser approach trajectory, and the lighting conditions in order to test the algorithms in a wide range of realistic and performance limiting situations. The data analyzed include the mean average precision metrics in order to compare the performance of the object detectors. The paper discusses the path to implementing the feature recognition algorithms and towards integrating them into the spacecraft Guidance Navigation and Control system.",
+  "ResumeSynthetique": "Cette étude compare les performances de deux algorithmes de détection d'objets basés sur l'apprentissage profond, YOLOv5 et Faster R-CNN, pour la navigation autonome autour d'objets spatiaux non coopératifs. Elle utilise des données expérimentales de simulations de vol en formation pour évaluer les algorithmes sous diverses conditions de mouvement, de trajectoire et d'éclairage. L'objectif est d'intégrer ces algorithmes dans les systèmes de navigation et de contrôle des vaisseaux spatiaux."
+}

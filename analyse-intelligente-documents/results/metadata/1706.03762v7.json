@@ -1,0 +1,58 @@
+{
+  "TitreDeLArticle": "Attention Is All You Need",
+  "AnneeDePublication": "2023",
+  "Auteurs": [
+    "Ashish Vaswani",
+    "Llion Jones",
+    "Noam Shazeer",
+    "Aidan N. Gomez",
+    "Illia Polosukhin",
+    "Niki Parmar",
+    "Jakob Uszkoreit",
+    "Łukasz Kaiser"
+  ],
+  "ContactDesAuteurs": [
+    {
+      "Nom": "Ashish Vaswani",
+      "Institution": "Google Brain",
+      "Email": "avaswani@google.com"
+    },
+    {
+      "Nom": "Llion Jones",
+      "Institution": "Google Research",
+      "Email": "llion@google.com"
+    },
+    {
+      "Nom": "Noam Shazeer",
+      "Institution": "Google Brain",
+      "Email": "noam@google.com"
+    },
+    {
+      "Nom": "Aidan N. Gomez",
+      "Institution": "University of Toronto",
+      "Email": "aidan@cs.toronto.edu"
+    },
+    {
+      "Nom": "Illia Polosukhin",
+      "Institution": "",
+      "Email": "illia.polosukhin@gmail.com"
+    },
+    {
+      "Nom": "Niki Parmar",
+      "Institution": "Google Research",
+      "Email": "nikip@google.com"
+    },
+    {
+      "Nom": "Jakob Uszkoreit",
+      "Institution": "Google Research",
+      "Email": "usz@google.com"
+    },
+    {
+      "Nom": "Łukasz Kaiser",
+      "Institution": "Google Brain",
+      "Email": "lukaszkaiser@google.com"
+    }
+  ],
+  "Resume": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+  "ResumeSynthetique": "Cet article présente le Transformer, une nouvelle architecture de réseau basée uniquement sur des mécanismes d'attention, qui élimine l'utilisation de réseaux récurrents ou convolutionnels. Les expériences montrent que le Transformer surpasse les modèles existants en qualité de traduction machine, avec une meilleure parallélisation et un temps d'entraînement réduit. Il établit de nouveaux records de qualité de traduction, mesurés par le score BLEU, pour l'anglais vers l'allemand et l'anglais vers le français, et s'adapte bien à d'autres tâches telles que l'analyse syntaxique de l'anglais."
+}
